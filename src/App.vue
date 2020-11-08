@@ -35,7 +35,9 @@ export default {
 
     },
     someAction() {
+      const form = document.querySelector('form');
       alert('Форма отправлена');
+      form.reset();      
     }
   }
 }
