@@ -1,24 +1,18 @@
-# client-form
+# Форма записи клиента
 
-## Project setup
+Оформленная форма записи клиента в организацию. В форме используется проверка полей на соответствие определенным криетирием. Форма не будет отправлена пока не будут заполнены все обязательные поля.
+
+## Установка проекта
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Сборка и запуск проекта для разработки
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Сборка готового проекта
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
